@@ -1,26 +1,20 @@
 header{
     height: 75px;
-    background-color: rgba(175, 216, 24, 0.7);
     line-height: 75px;
 }
 
 aside{
   height: 150px;
-  background-color: rgba(140, 67, 105, .9);
   line-height: 150px;
 }
 
 section {
-  background: yellow;
   height: 150px;
   line-height: 150px;
 }
-  section:nth-of-type(2){
-      background: orange;
-  }
+
 
   p{
-      background-color: rgb(156, 210, 202);
       height: 250px;
       float: left;
       width: 50%;
@@ -28,7 +22,6 @@ section {
   }
 
   footer p{
-      background-color: rgb(255, 199, 15);
       height: 90px;
       line-height: 90px;
       margin-bottom: 20px;
@@ -39,13 +32,11 @@ section {
 @media screen and (min-width: 768px){
 
   header{
-      background-color: rgba(98, 216, 24, 0.7);
       height: 100px;
       line-height: 100px;
   }
 
   aside{
-    background-color: rgba(84, 40, 63, 0.975);
     float: left;
     height: 600px;
     line-height: 60px;
@@ -53,18 +44,13 @@ section {
   }
 
   section {
-      background: rgb(220, 202, 4);
       height: 200px;
       float: left;
       line-height: 200px;
       width: 40%;
   }
-    section:nth-of-type(2){
-      background: rgb(255, 132, 0);
-    }
   
     p{
-      background-color: rgb(62, 182, 164);
       width: 20%;
       height: 250px;
       line-height: 250px;
@@ -72,7 +58,6 @@ section {
 
     footer p{
         height: 150px;
-        background-color: rgb(255, 119, 15);
         line-height: 150px;
         width: 80%;
     }
