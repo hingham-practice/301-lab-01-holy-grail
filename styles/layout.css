@@ -1,0 +1,64 @@
+header{
+    height: 75px;
+    line-height: 75px;
+}
+
+aside{
+  height: 150px;
+  line-height: 150px;
+}
+
+section {
+  height: 150px;
+  line-height: 150px;
+}
+
+
+  p{
+      height: 250px;
+      float: left;
+      width: 50%;
+      line-height: 250px;
+  }
+
+  footer p{
+      height: 90px;
+      line-height: 90px;
+      margin-bottom: 20px;
+      width: 100%;
+  }
+
+
+@media screen and (min-width: 768px){
+
+  header{
+      height: 100px;
+      line-height: 100px;
+  }
+
+  aside{
+    float: left;
+    height: 600px;
+    line-height: 60px;
+    width: 20%;
+  }
+
+  section {
+      height: 200px;
+      float: left;
+      line-height: 200px;
+      width: 40%;
+  }
+  
+    p{
+      width: 20%;
+      height: 250px;
+      line-height: 250px;
+    }
+
+    footer p{
+        height: 150px;
+        line-height: 150px;
+        width: 80%;
+    }
+}
