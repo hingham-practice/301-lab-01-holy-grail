@@ -1,35 +1,59 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction:column;
+}
+
+body > header, body > footer{
+    height: 300px;
+}
+
 header{
     height: 75px;
     line-height: 75px;
 }
 
-aside{
-  height: 150px;
-  line-height: 150px;
+main{
+    flex: 1;
 }
+
+aside{
+    height: 150px;
+    line-height: 150px;
+}
+
 
 section {
-  height: 150px;
-  line-height: 150px;
+    height: 150px;
+    line-height: 150px;
+}
+
+div {
+    display: flex;
 }
 
 
-  p{
-      height: 250px;
-      float: left;
-      width: 50%;
-      line-height: 250px;
-  }
 
-  footer p{
-      height: 90px;
-      line-height: 90px;
-      margin-bottom: 20px;
-      width: 100%;
-  }
+div p{
+    height: 250px;
+    line-height: 250px;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+footer {
+    height: 90px;
+    line-height: 90px;
+} 
 
 
-@media screen and (min-width: 768px){
+ 
+
+
+/* @media screen and (min-width: 768px){
 
   header{
       height: 100px;
@@ -39,7 +63,7 @@ section {
   aside{
     float: left;
     height: 600px;
-    line-height: 60px;
+    line-height: 600px;
     width: 20%;
   }
 
@@ -61,4 +85,4 @@ section {
         line-height: 150px;
         width: 80%;
     }
-}
+} */
