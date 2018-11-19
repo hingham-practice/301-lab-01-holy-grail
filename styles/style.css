@@ -22,7 +22,7 @@
     p{
         background-color: rgb(156, 210, 202);
         height: 250px;
-        float: left;
+        /* float: left; */
         width: 50%;
         line-height: 250px;
     }

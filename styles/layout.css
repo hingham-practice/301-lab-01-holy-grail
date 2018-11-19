@@ -2,23 +2,23 @@ html, body{
     height: 100%;
 }
 
-body{
+main{
     display: flex;
     flex-direction:column;
 }
 
-body > header, body > footer{
+/* body > header, body > footer{
     height: 300px;
-}
+} */
 
 header{
     height: 75px;
     line-height: 75px;
 }
 
-main{
+/* main{
     flex: 1;
-}
+} */
 
 aside{
     height: 150px;
